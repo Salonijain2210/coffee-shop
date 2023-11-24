@@ -1,0 +1,169 @@
+.blog{
+  background-image: url('../Images/greenbackground.png');
+  width:100%;
+  height:auto;
+  BACKGROUND-REPEAT: NO-REPEAT;
+    BACKGROUND-SIZE: cover;
+}
+body {
+  margin: 0;
+  padding: 0;
+ 
+  
+ 
+
+}
+
+.card.background {
+  background: none;
+  border: none;     
+  border-radius: 0; 
+  box-shadow: none;  
+}
+.img-fluid rounded-start{
+  margin-top:-40px;
+}
+.btn.btn-default.btn-light {
+  background: #ffffff63;
+  border-radius: 10px;
+  line-height: normal;
+  padding: 10px 50px;
+  color: #fff;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.align-items-center {
+  align-items: center;
+}
+.card{
+  border:none;
+  color: white;
+  font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+
+}
+.card .card_my .top img{
+  top:10px;
+}
+
+.Rightvector
+ {
+ 
+  top: 0;
+  right: 0;
+width:250px;
+  z-index: 0;
+}
+picture img{
+  width:100%;
+}
+.home-collaboration__img-bubbles.home_bubbles.left_blog {
+  width: 70px;
+  left: 95px;
+  top: 20%;
+}
+.home-collaboration__img-bubbles.right_blog {
+  left: 0;
+  width: 40vw;
+  top:20%
+}
+.home-collaboration__img-bubbles.home_bubbles.blogs_coffee {
+  right: 0 ;
+  left: auto;
+  width: 27vw;
+  top: 14vw;
+}
+.home-collaboration__img-bubbles.blogs_green_bean {
+  width: 5vw;
+  top: -40px;
+  left: 20%;
+ 
+}
+.home-collaboration__img-bubbles img {
+  width: 100%;
+}
+.home-collaboration__img-bubbles.floating_3.right {
+  left: auto !important;
+  right: 230px !important;
+  top: -23px;
+}
+.home-collaboration__img-bubbles.floating_3 {
+  width: 100px;
+  left: 205px;
+  top: 10px;
+}
+.home-collaboration__img-bubbles.home_bubbles {
+  width: 190px;
+ 
+}
+.home-collaboration__img-bubbles.home_bubbles.right_bean_blog {
+  right: 0;
+  left: auto;
+  top: -60px;
+ 
+}
+.Vector {
+  top: 30px;
+  left:-60px;
+  z-index: 0;
+  width: 300px;
+
+}
+.home-collaboration__img-bubbles.floating_3 img{
+  position: relative;
+ animation-name: bean;
+ animation-duration: 4s;
+ animation-iteration-count: infinite;
+
+}
+@keyframes bean {
+  0%, 100% {
+    transform: translateY(-15px);
+  }
+  40% {
+    transform: translateY(15px);
+  }
+  70% {
+    transform: translateY(-10px);
+  }
+}
+.home-collaboration__img-bubbles.home_bubbles.left_blog{
+  position: relative;
+  animation-name: coffee;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes coffee {
+  0%, 100% {
+    transform: translateY(-15px);
+  }
+  40% {
+    transform: translateY(15px);
+  }
+  70% {
+    transform: translateY(-10px);
+  }
+}
+.home-collaboration__img-bubbles.right_blog img{
+  position: relative;
+ animation-name: coffeemug;
+ animation-duration: 6s;
+ animation-iteration-count: infinite;
+}
+@keyframes coffeemug {
+  0%, 100% {
+    transform: translateX(-15px);
+}
+40% {
+    transform: translateX(15px);
+}
+70% {
+    transform: translateX(-10px);
+}
+}

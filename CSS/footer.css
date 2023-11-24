@@ -1,0 +1,151 @@
+.custom-footer {
+    background-image: url('../Images/Vector\ \(2\).png');
+    background-size: cover;
+    color: white;
+    padding: 260px 0 100px;
+    text-align: right;
+    margin-top: -290px;
+    position: relative;
+    z-index: +1;
+}
+.custom-footer h4 {
+    font-family: Roboto;
+font-size: 20px;
+font-weight: 800;
+line-height: 53px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.custom-footer p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.custom-footer li {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+
+.custom-footer i {
+
+    text-align: left;
+}
+
+  .rounded-textbox {
+    border: 1px ; /* Add a border for the text box */
+    border-radius: 10px; /* Adjust the border-radius value to control the roundness */
+    padding: 10px; /* Add padding for spacing */
+    width: 200px; /* Set the desired width for the text box */
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/*.container {
+            position: relative;
+            width: 100%;
+            max-width: 1590px; 
+            margin: 0 auto; 
+            background: transparent;
+        }
+*/
+        .template-image {
+            width: 100%;
+            background-size: cover;
+        }
+
+        .content-container {
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: transparent;
+            padding: 80px;
+            text-align: left;
+            width:100%;
+        }
+
+        h1 {
+            font-size: 45px;
+        }
+
+        hr {
+            border: 0px solid white;
+            margin: 100px 0;
+        }
+
+        input[type="text"] {
+            width: 70%;
+            padding: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #D6EC78;
+            border: none;
+            cursor: pointer;
+        }
+        .subscribe-btn{
+            background-color: #99BE1B;
+    color: white;
+    width: 140px;
+    height: 35px;
+    border-radius: 12px;
+    border: 0;
+    cursor: pointer;
+    font-size: 16px;
+        }
+        .fa {
+            color: white;
+            padding: 7px;
+            font-size: 25px;
+            width: 20px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            background-color: transparent;
+          }
+          
+          
+          .fas-twitter {
+            background: white;
+            color: white;
+          }
+          
+          .fas-facebook {
+            background: white;
+            color: white;
+          }
+          
+          
+          .fas-rss {
+            background: white;
+            color: white;
+          }
+          
+          
+          
+          .fas-instagram {
+            background: white;
+            color: white;
+          }
+          .icon-container {
+            text-align: start;
+        }
+        ul {
+            padding: 0;
+            list-style: none;
+        }
+        .fa fa-search{
+            padding-right: 40px;
+        }
